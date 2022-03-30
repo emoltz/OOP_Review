@@ -1,4 +1,4 @@
-// Operator overloading examples, overload ALL THE THINGS!!
+// Operator overloading examples
 // Also show how friend operators work as well.
 #include <iostream>
 #include <string>
