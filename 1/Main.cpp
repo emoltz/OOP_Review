@@ -13,6 +13,7 @@ private:
 public:
 	Pet() : _age {0}, _weight {0}, _name {"Emerald"}{}; 
 	Pet(int age, int weight, string name);
+
 };
 
 int main(int argc, char const *argv[]) {

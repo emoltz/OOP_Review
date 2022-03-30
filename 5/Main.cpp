@@ -13,7 +13,8 @@ protected:
 public:
 	Pet() : _name {""}, _age {0} {};
 	Pet(string name, int age) : _name {name}, _age {age} {};
-	string makeSound() {
+
+    string makeSound() {
 		return "Default Animal Noise!";
 	}
 };
@@ -31,11 +32,11 @@ public:
 	}
 
 	// Can't do this!
-	/*
+//	/*
 	string getName() const {
 		return _name;
 	}
-	*/
+//	*/
 
 	// Can do this!
 	int getAge() const {
@@ -43,11 +44,11 @@ public:
 	}
 
 	// What happens if this exists vs doesn't exist?
-	/*
+
 	string makeSound() {
 		return "Meow!";
 	}
-	*/
+
 };
 
 int main(int argc, char const *argv[]) {

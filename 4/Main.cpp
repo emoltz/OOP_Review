@@ -24,7 +24,7 @@ public:
 	int getW() const;
 	void setW(int w);
 
-	friend ostream& operator<<(ostream& os, const Pet& pet);
+    friend ostream& operator<<(ostream& os, const Pet& pet);
 };
 
 int main(int argc, char const *argv[]) {
