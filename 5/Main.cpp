@@ -33,9 +33,9 @@ public:
 
 	// Can't do this!
 //	/*
-	string getName() const {
-		return _name;
-	}
+//	string getName() const {
+//		return _name;
+//	}
 //	*/
 
 	// Can do this!

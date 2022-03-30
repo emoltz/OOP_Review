@@ -16,8 +16,8 @@ public:
 
 	// Destructor to free that memory piece.
 	~Pet() {
-		delete _pw;
 		_pw = nullptr;
+        delete _pw;
 	}
 
 	// Accessor and mutator..
